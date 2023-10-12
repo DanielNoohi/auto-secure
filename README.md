@@ -2,7 +2,7 @@
 A lightweight security script fortifying your Linux Server
 
 
-```bash
+```
 # Add the following lines to the end of the file:
 $ModLoad imudp
 $UDPServerRun 514
@@ -13,4 +13,4 @@ $PrivDropToGroup syslog
 $InputUDPServerBindRuleset remote
 $UDPServerAddress 0.0.0.0
 $UDPServerRun 514
-```bash
+```
